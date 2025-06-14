@@ -1,4 +1,3 @@
-import React from 'react';
 import './CloudsBackground.css';
 
 const clouds = [

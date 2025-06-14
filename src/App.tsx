@@ -1,4 +1,3 @@
-import React from 'react'
 import ValentineProposal from './components/ValentineProposal'
 
 function App() {
