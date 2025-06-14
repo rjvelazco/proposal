@@ -1,54 +1,80 @@
-# React + TypeScript + Vite
+# 💖 My Valentine Proposal (React + TypeScript + Vite)
 
-This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
+Welcome! This project is an interactive and romantic application built with React, TypeScript, and Vite.  
+It was created to surprise my partner with a unique experience, full of love, music, fireworks, and a poetic touch.
 
-Currently, two official plugins are available:
+---
 
-- [@vitejs/plugin-react](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react) uses [Babel](https://babeljs.io/) for Fast Refresh
-- [@vitejs/plugin-react-swc](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react-swc) uses [SWC](https://swc.rs/) for Fast Refresh
+## ✨ Features
 
-## Expanding the ESLint configuration
+- **Romantic, personalized question:**  
+  “Would you stay by my side in all my dreams?”
+- **Interactive buttons:**  
+  The “No” button playfully escapes, while the “Yes” button leads to a special celebration.
+- **Animated fireworks:**  
+  Celebrate “Yes” with a visual spectacle!
+- **Personalized music:**  
+  Your favorite song plays at the most special moment.
+- **Responsive, poetic design:**  
+  Beautiful cloud backgrounds and warm colors, adapted to any device.
 
-If you are developing a production application, we recommend updating the configuration to enable type-aware lint rules:
+---
 
-```js
-export default tseslint.config({
-  extends: [
-    // Remove ...tseslint.configs.recommended and replace with this
-    ...tseslint.configs.recommendedTypeChecked,
-    // Alternatively, use this for stricter rules
-    ...tseslint.configs.strictTypeChecked,
-    // Optionally, add this for stylistic rules
-    ...tseslint.configs.stylisticTypeChecked,
-  ],
-  languageOptions: {
-    // other options...
-    parserOptions: {
-      project: ['./tsconfig.node.json', './tsconfig.app.json'],
-      tsconfigRootDir: import.meta.dirname,
-    },
-  },
-})
-```
+## 🚀 Installation & Usage
 
-You can also install [eslint-plugin-react-x](https://github.com/Rel1cx/eslint-react/tree/main/packages/plugins/eslint-plugin-react-x) and [eslint-plugin-react-dom](https://github.com/Rel1cx/eslint-react/tree/main/packages/plugins/eslint-plugin-react-dom) for React-specific lint rules:
+1. **Clone the repository**
+   ```sh
+   git clone <REPO-URL>
+   cd my-valentine
+   ```
 
-```js
-// eslint.config.js
-import reactX from 'eslint-plugin-react-x'
-import reactDom from 'eslint-plugin-react-dom'
+2. **Install dependencies**
+   ```sh
+   npm install
+   ```
 
-export default tseslint.config({
-  plugins: {
-    // Add the react-x and react-dom plugins
-    'react-x': reactX,
-    'react-dom': reactDom,
-  },
-  rules: {
-    // other rules...
-    // Enable its recommended typescript rules
-    ...reactX.configs['recommended-typescript'].rules,
-    ...reactDom.configs.recommended.rules,
-  },
-})
-```
+3. **Add your favorite song**
+   - Place your MP3 file in the `public/music/` folder and update the filename in the code if needed.
+
+4. **Start the app**
+   ```sh
+   npm run dev
+   ```
+   Open [http://localhost:5173](http://localhost:5173) in your browser.
+
+---
+
+## 🛠️ Technologies Used
+
+- [React](https://react.dev/)
+- [TypeScript](https://www.typescriptlang.org/)
+- [Vite](https://vitejs.dev/)
+- [@fireworks-js/react](https://www.npmjs.com/package/@fireworks-js/react) (fireworks)
+- Custom CSS
+
+---
+
+## 📱 Screenshots
+
+_Add images of the app on desktop and mobile to showcase the visual experience._
+
+---
+
+## ❤️ Credits & Acknowledgements
+
+- Poetic inspiration & design: [Your name or your partner's name]
+- Music: [Song name and artist]
+- Fireworks: [@fireworks-js/react](https://www.npmjs.com/package/@fireworks-js/react)
+
+---
+
+## 📄 License
+
+This project is personal and romantic. Use it to inspire love and creativity!
+
+---
+
+Want to personalize it even more?  
+Change the question, colors, music, or effects to make it perfect for your story!
+
+Would you like me to update your README.md file with this improved version? If you want it in English or want to add screenshots, just let me know!
