@@ -67,7 +67,7 @@ const ValentineProposal = () => {
     <div className="valentine-bg full-viewport">
       <CloudsBackground />
       <div className="valentine-container">
-        <h1>¿Te quedarías a mi lado en todos mis sueños?</h1>
+        <h1>¿Me harías el honor de salir a comer pasta conmigo?</h1>
         <div className="buttons-container">
           <button className="yes-button" onClick={handleYesClick}>
             Sí
